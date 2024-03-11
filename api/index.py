@@ -10,7 +10,7 @@ from pydantic import BaseModel
 from starlette.responses import JSONResponse
 from werkzeug.utils import secure_filename
 
-from db import UserDb, PostDb
+from .db import UserDb, PostDb
 
 ALLOWED_EXTENSIONS = {'png', 'jpg'}
 
